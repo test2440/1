@@ -5,7 +5,7 @@ import re
 from telethon.events import CallbackQuery
 from telethon.tl.functions.users import GetUsersRequest
 
-from zelz import zedub
+from zlzl import zedub
 from ..Config import Config
 from ..sql_helper.globals import gvarstatus
 
@@ -22,7 +22,7 @@ async def on_plug_in_callback_query_handler(event):
         zzz = await zedub(GetUsersRequest(ussr))
     #user_id = event.query.user_id
     user_id = int(uzerid)
-    file_name = f"./zelz/{user_id}.txt"
+    file_name = f"./zlzl/{user_id}.txt"
     if os.path.exists(file_name):
         jsondata = json.load(open(file_name))
         try:
