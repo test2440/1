@@ -2,11 +2,11 @@ import os
 
 from PIL import Image
 
-from zelz.core.logger import logging
-from zelz.core.managers import edit_or_reply
-from zelz.helpers.functions.vidtools import take_screen_shot
-from zelz.helpers.tools import fileinfo, media_type, meme_type
-from zelz.helpers.utils.utils import runcmd
+from ...core.logger import logging
+from ...core.managers import edit_or_reply
+from ...helpers.functions.vidtools import take_screen_shot
+from ...helpers.tools import fileinfo, media_type, meme_type
+from ...helpers.utils.utils import runcmd
 
 LOGS = logging.getLogger(__name__)
 
