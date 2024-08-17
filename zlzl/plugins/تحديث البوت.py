@@ -187,8 +187,8 @@ async def upstream(event):
         repo = Repo.init()
         origin = repo.create_remote("upstream", off_repo)
         origin.fetch()
-        repo.create_head("zizi", origin.refs.master)
-        repo.heads.zizi.set_tracking_branch(origin.refs.master)
+        repo.create_head("zizi", origin.refs.main)
+        repo.heads.zizi.set_tracking_branch(origin.refs.main)
         repo.heads.zizi.checkout(True)
     with contextlib.suppress(BaseException):
         repo.create_remote("upstream", off_repo)
