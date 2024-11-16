@@ -23,9 +23,9 @@ async def _(event):
     if not cmd:
         return await edit_delete(event, "**- ادخـل الكـود مع الامــر كالتالـي**\n**- (.تجربه + الكـود البرمجـي)**")
     cmd = (
-        cmd.replace("sendmessage", "send_message")
-        .replace("sendfile", "send_file")
-        .replace("editmessage", "edit_message")
+        cmd.replace("send_message", "send_message")
+        .replace("send_file", "send_file")
+        .replace("edit_message", "edit_message")
     )
     zedthon = await edit_or_reply(event, "**- جار تنفيـذ الكـود .. انتظـر**")
     old_stderr = sys.stderr

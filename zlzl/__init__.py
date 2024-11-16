@@ -61,6 +61,14 @@ try:
 except Exception:
     HEROKU_APP = None
 
+# التحقق من DB_URI
+if Config.DB_URI is not None:
+    if "postgres://" in Config.DB_URI:
+        LOGS.info("DB_URI is set correctly.")
+    else:
+        LOGS.error("DB_URI does not start with 'postgres://'.")
+else:
+    LOGS.error("DB_URI is not set.")
 
 # Global Configiables
 COUNT_MSG = 0
@@ -79,3 +87,4 @@ LOAD_PLUG = {}
 BOTLOG = Config.BOTLOG
 BOTLOG_CHATID = Config.BOTLOG_CHATID
 PM_LOGGER_GROUP_ID = Config.PM_LOGGER_GROUP_ID
+
