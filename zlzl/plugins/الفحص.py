@@ -41,6 +41,8 @@ async def zed_alive(event):
         zzt = gvarstatus("z_time")
         zedda = f"{zzd}┊{zzt}"
     else:
+        zzd = f"{bt.year}/{bt.month}/{bt.day}"
+        zzt = ""
         zedda = f"{bt.year}/{bt.month}/{bt.day}"
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "✥┊"
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت  زدثــون 𝗭𝗧𝗵𝗼𝗻  يعمـل .. بنجـاح ☑️ 𓆩 **"
@@ -95,4 +97,4 @@ zed_temp = """
 │ ● ᴜᴘ ᴛɪᴍᴇ ➪ {uptime}
 │ ● ᴀʟɪᴠᴇ sɪɴᴇᴄ ➪ {zedda}
 │ ● ᴍʏ ᴄʜᴀɴɴᴇʟ ➪ [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/ZThon)
-┗───────────────┛"""
+┛───────────────┛"""
