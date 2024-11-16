@@ -8,9 +8,12 @@ cd Zele_vps
 pip3 install -r requirements.txt
 ```
 
-```nano config.py``` 
-__ وبعدها حط معلوماتك __
+```
+nano config.py
+``` 
+وبعدها حط معلوماتك 
 ** بعدها شغل باحدي الطرق الاتيه :- **
+
 1:-
 ```
 python3 -m zlzl
