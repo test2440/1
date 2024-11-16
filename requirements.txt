@@ -1,1 +1,14 @@
-Telethon
+Pillow
+heroku3
+telethon
+validators
+sqlalchemy
+psycopg2
+aiohttp
+lxml_html_clean
+youtube-search-python
+httpcore
+httpcore==0.13.7
+googletrans
+lyricsgenius
+pytz
