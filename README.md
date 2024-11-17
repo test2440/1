@@ -12,6 +12,11 @@ pip3 install -r requirements.txt
 nano config.py
 ```
 **امر انشاء قاعدة البيانات** حط كلمه السر واكتب الامر 
+**Ubuntu**
+```
+sudo apt update
+sudo apt install postgresql postgresql-contrib libpq-dev
+```
 ```
 sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلمه_سر_قاهد_البيانات';\" && createdb speed -O postgres"
 ```
