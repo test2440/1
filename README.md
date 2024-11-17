@@ -15,7 +15,8 @@ nano config.py
 ```
 sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلمه_سر_قاهد_البيانات';\" && createdb speed -O postgres"
 ```
-**وخليها كذا في ملف config.py :- ```postgresql://postgres:كلمه_سر_قاهد_البيانات@localhost:5432/speed```
+**وخليها كذا في ملف config.py :- 
+```postgresql://postgres:كلمه_سر_قاهد_البيانات@localhost:5432/speed```
 __وبعدها حط معلوماتك__ 
 
 **بعدين شغل باحدي الطرق الاتيه** :-
