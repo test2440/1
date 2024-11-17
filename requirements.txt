@@ -6,6 +6,7 @@ sqlalchemy
 psycopg2
 aiohttp
 lxml_html_clean
+Selenium 
 youtube-search-python
 httpcore
 httpcore==0.13.7
