@@ -3,14 +3,19 @@
 apt install git && apt install python3
 ```
 ```
-git clone https://github.com/speeddd-s/Zele_vps.git
+git clone https://github.com/l-s-I-I/Zele_vps.git
 cd Zele_vps
 pip3 install -r requirements.txt
 ```
 
 ```
 nano config.py
-``` 
+```
+**امر انشاء قاعدة البيانات** حط كلمه السر واكتب الامر 
+```
+sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلمه_سر_قاهد_البيانات';\" && createdb speed -O postgres"
+```
+**وخليها كذا في ملف config.py :- ```postgresql://postgres:كلمه_سر_قاهد_البيانات@localhost:5432/speed```
 __وبعدها حط معلوماتك__ 
 
 **بعدين شغل باحدي الطرق الاتيه** :-
