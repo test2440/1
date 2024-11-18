@@ -23,7 +23,8 @@ sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلم�
 **وخليها كذا في ملف config.py :- 
 
 ```postgresql://postgres:كلمه_سر_قاهد_البيانات@localhost:5432/speed```
-__وبعدها حط معلوماتك__ 
+
+__وبعدها حط باقي معلوماتك__ 
 
 
 
