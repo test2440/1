@@ -1,5 +1,6 @@
 Pillow
 heroku3
+sqlalchemy_json
 telethon
 validators
 sqlalchemy
