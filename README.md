@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install postgresql postgresql-contrib libpq-dev
 ```
 ```
-sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلمه_سر_قاعدة_البيانات';\" && createdb speed -O postgres"
+sudo su - postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'كلمه_سر_قاعدة_البيانات';\" && createdb speed -O postgres
 ```
 **وخليها كذا في ملف config.py :- 
 
