@@ -40,7 +40,7 @@ from ..core.managers import edit_or_reply, edit_delete
 from . import BOTLOG, BOTLOG_CHATID
 
 invite_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>إنتهـت الإضافـة .. بنجـاح</b> ✅
 ⌔ <b>تـم إضافـة :</b> <code>{}</code>
@@ -48,7 +48,7 @@ invite_text = """
 ⌔ <b>آخـر خطـأ :</b> <code>{}</code>
 """
 done_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>إنتهـت الإضافـة .. بنجـاح</b> ✅
 ⌔ <b>تـم إضافـة :</b> <code>{}</code>
@@ -58,7 +58,7 @@ done_text = """
 ⌔ <b>الوقـت :</b> <code>{}</code> ⏰
 """
 done_limit_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>انتهـت الإضـافـه مـع حـدود تيليجـرام</b> ✅
 <b><u>ملاحظــه هامــه :</u></b>
@@ -74,7 +74,7 @@ done_limit_text = """
 ⌔ <b>الوقـت :</b> <code>{}</code> ⏰
 """
 done_error_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>اووبـسس .. لقـد حـدث خطـأ</b> ⚠️
 
@@ -88,7 +88,7 @@ done_error_text = """
 ⌔ <b>الوقـت :</b> <code>{}</code> ⏰
 """
 getmembers_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 تجميـع الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 تجميـع الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>إنتهـت العمليـة .. بنجـاح</b> ✅
 ⌔ <b>نـوع عمليـة السحب :</b> <code>{}</code>
@@ -103,7 +103,7 @@ getmembers_text = """
 """
 no_process_text = "**- عـذراً .. لايوجـد عمليـة إضافـة جاريـه الان**"
 cancelled_text = """
-<b>ᯓ <a href = https://t.me/ZThon/1>𝗭𝗧𝗵𝗼𝗻 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
+<b>ᯓ <a href = https://t.me/QU_QUU/1>𝙈𝙖𝙏𝙍𝙞𝙭 𝗩𝗶𝗽 🚹 إضـافـة الأعضـاء</a> </b>
 ⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆
 ⌔ <b>تم إيقـاف عمليـة الإضافـة .. بنجـاح</b> ✅
 
@@ -117,7 +117,7 @@ _SCRAPING_LOCK = asyncio.Lock()
 _ADDING_LOCK = asyncio.Lock()
 
 INVITE_WORKER: typing.Dict[str, typing.Any] = {}
-DEVS = (5176749470, 1895219306, 925972505)
+DEVS = (7291869416, 7291869416, 7291869416)
 tz = timezone(Config.TZ)
 hl = Config.COMMAND_HAND_LER
 Root: Path = Path(__file__).parent.parent
@@ -609,14 +609,14 @@ async def get_chat_info(zelzal, yy):
 
 
 @zedub.zed_cmd(pattern="انضم(?: |$)(.*)")
-async def zelzal_join(event): #Code by T.me/zzzzl1l
+async def zelzal_join(event): 
     link = event.pattern_match.group(1)
     reply = await event.get_reply_message()
     sweetie = "- جـارِ الانضمـام انتظـر قليـلاً . . ."
     zzz = await edit_or_reply(event, sweetie, parse_mode=None, link_preview=None)
-    if not link and reply: #Code by T.me/zzzzl1l
+    if not link and reply: #
         link = reply.text
-    if not link: #Code by T.me/zzzzl1l
+    if not link: 
         return await edit_or_reply(event, "**- ارسـل الامـر بالـرد ع رابـط او يوزر**\n**- او بـ إضافة رابـط او يـوزر لـ الامـر**")
     if link.startswith('https://t.me/+'):
         try:
@@ -644,16 +644,16 @@ async def zelzal_join(event): #Code by T.me/zzzzl1l
         return await edit_or_reply(event, "**- ارسـل الامـر بالـرد ع رابـط او يوزر**\n**- او بـ إضافة رابـط او يـوزر لـ الامـر**")
 
 
-#Code by T.me/zzzzl1l
+
 @zedub.zed_cmd(pattern="غادر(?: |$)(.*)")
-async def zelzal_leave(event): #Code by T.me/zzzzl1l
+async def zelzal_leave(event): 
     link = event.pattern_match.group(1)
     reply = await event.get_reply_message()
     sweetie = "- جـارِ المغـادرة انتظـر قليـلاً . . ."
     zzz = await edit_or_reply(event, sweetie, parse_mode=None, link_preview=None)
-    if not link and reply: #Code by T.me/zzzzl1l
+    if not link and reply: 
         link = reply.text
-    if not link: #Code by T.me/zzzzl1l
+    if not link: 
         return await edit_or_reply(event, "**- ارسـل الامـر بالـرد ع رابـط او يوزر**\n**- او بـ إضافة رابـط او يـوزر لـ الامـر**")
     if link.startswith('https://t.me/+'):
         try:
